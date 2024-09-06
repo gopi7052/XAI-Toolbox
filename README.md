@@ -37,7 +37,7 @@ If users prefer to create a custom model from scratch, they can build and train 
     ```
 
 ### 3. Usage Instructions
-To use the bulk Grad-CAM and LIME tool, run the following command in MATLAB:
+To use the bulk Grad-CAM and LIME function, run the following command in MATLAB:
 ```matlab
 bulk_gradCAM_LIME_UI;
 ```
