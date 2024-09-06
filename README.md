@@ -14,3 +14,6 @@ Beyond its utility in interpreting model decisions, our toolbox extends its valu
 
 ![download (1)](https://github.com/user-attachments/assets/4c1ab51c-e4e7-4aaf-a80b-95b246b17dc4)
 
+
+## Cite As
+Simhadri Chinna Gopi, and Hari Kishan Kondaveeti (2024), Toolbox for User-Friendly GUI-Based Grad-CAM and LIME (https://github.com/gopi7052/XAI-Toolbox.git), Retrieved July 6, 2024.
