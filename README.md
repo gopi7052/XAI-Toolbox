@@ -1,4 +1,10 @@
-# XAI Toolbox for User-Friendly GUI-Based Grad-CAM and LIME
+# XAI Toolbox for User-Friendly GUI-Based Grad-CAM and LIME [MATLAB]
+Authors: 1. Hari Kishan Kondaveeti, Ph.D
+         2. Chinna Gopi Simhadri, (Ph.D)
+
+Date: 06th July 2024
+
+## Description
 We designed this MATLAB toolbox for visualizing Grad-CAM and LIME explanations, simplifying interpretability for researchers with limited coding skills. Our toolbox enables users to create visualizations through an intuitive interface, facilitating the interpretation of model predictions without deep programming expertise. It includes essential features for generating Grad-CAM and LIME visuals with customizable parameters. Tutorials and examples are provided to aid users in mastering the toolbox's capabilities.
 
 Here are the features provided by each script:
