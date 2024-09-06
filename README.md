@@ -1,66 +1,16 @@
-##![download](https://github.com/user-attachments/assets/2af4dca1-1e0e-4fb1-ac96-9d6368c10016)
- XAI Toolbox for User-Friendly GUI-Based Grad-CAM and LIME
+# XAI Toolbox for User-Friendly GUI-Based Grad-CAM and LIME
+We designed this MATLAB toolbox for visualizing Grad-CAM and LIME explanations, simplifying interpretability for researchers with limited coding skills. Our toolbox enables users to create visualizations through an intuitive interface, facilitating the interpretation of model predictions without deep programming expertise. It includes essential features for generating Grad-CAM and LIME visuals with customizable parameters. Tutorials and examples are provided to aid users in mastering the toolbox's capabilities.
 
-A README file is a crucial component of any software project, including a MATLAB toolbox, as it provides users with essential information about the project. Here are the basic elements that should be included in the README file:
+Here are the features provided by each script:
 
-### 1. Project Title
-Explainable AI Toolbox
+**Single Image Processing:** Allows users to process one image at a time using Grad-CAM and LIME techniques (single_gradCAM_LIME_UI.m).
+**Batch Image Processing:** Supports the processing of multiple images in a batch using Grad-CAM and LIME techniques (bulk_gradCAM_LIME_UI.m).
+**Masked LIME Explanations:** Generates LIME explanations with masked regions (masked_LIME_UI.m).
+**IoU Calculation:** Computes the Intersection over Union (IoU) metric between a binarized image and a ground truth image (iou_calculation_UI.m).
 
-### 2. Project Description
-The Explainable AI Toolbox provides a set of GUI-based tools for generating visual explanations using Grad-CAM and LIME, specifically tailored for ecological research. These tools help researchers understand and interpret the decisions made by deep learning models, enhancing transparency and trust.
+#### Screenshots:
+![download](https://github.com/user-attachments/assets/2af4dca1-1e0e-4fb1-ac96-9d6368c10016)
+ 
+Beyond its utility in interpreting model decisions, our toolbox extends its value to diverse fields like healthcare, agriculture, and remote sensing. These areas benefit greatly from an enhanced understanding of model reasoning. Researchers in these domains can leverage our toolbox to gain insights into complex models and improve decision-making processes. With user-friendly tools and educational resources, our aim is to democratize the use of interpretability techniques, fostering broader adoption and innovation across scientific disciplines.
 
-### 3. Installation Instructions
-1. Clone or download this repository.
-2. Open MATLAB.
-3. Add the toolbox folder to your MATLAB path using the following command:
-    ```matlab
-    addpath(genpath('path_to_toolbox'));
-    ```
-
-### 4. Usage Instructions
-To use the bulk Grad-CAM and LIME tool, run the following command in MATLAB:
-```matlab
-bulk_gradCAM_LIME_UI;
-```
-
-### 5. Features
-Bulk Grad-CAM and LIME: Perform Grad-CAM and LIME visualizations on multiple images.
-Single Grad-CAM and LIME: Perform Grad-CAM and LIME visualizations on a single image.
-Masked LIME: Perform masked LIME visualizations on an image.
-IoU Calculation: Calculate Intersection over Union (IoU) for given masks.
-
-### 6. File Structure
-ExplainableAI_Toolbox/
-    + main/
-        - bulk_gradCAM_LIME_UI.m
-        - single_gradCAM_LIME_UI.m
-        - masked_LIME_UI.m
-        - iou_calculation_UI.m    
-    README.md
-    
-
-
-### 7. Dependencies
-### Dependencies for Explainable AI Toolbox
-
-Here are the dependencies required for the Explainable AI Toolbox to function correctly:
-
-1. MATLAB Version
-   - MATLAB R2020a or later
-
-2. MATLAB Toolboxes
-   - Image Processing Toolbox
-   - Deep Learning Toolbox
-   - Statistics and Machine Learning Toolbox
-   - Computer Vision Toolbox
-
-### 8. Contributing
-Contributions are welcome! Please fork the repository and submit pull requests.
-
-### 9. License
-This toolbox is licensed under the MIT License. See the LICENSE file for more details.
-
-### 10. Contact Information
-Developers:
-Dr. Hari Kishan Kondaveeti (kishan.kondaveeti@gmail.com)
-Mr. Simhadri Chinna Gopi (simhadri.chinnagopi@gmail.com)
+![download (1)](https://github.com/user-attachments/assets/4c1ab51c-e4e7-4aaf-a80b-95b246b17dc4)
